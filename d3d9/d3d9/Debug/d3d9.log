@@ -1,0 +1,19 @@
+﻿Build started 6/12/2013 1:58:02 PM.
+     1>Project "C:\Users\austin\Desktop\d3d9\d3d9\d3d9.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\d3d9.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt d3d9.cpp
+         d3d9.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\austin\Desktop\d3d9\Debug\d3d9.exe" /NOLOGO d3d9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\d3d9.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\austin\Desktop\d3d9\Debug\d3d9.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\austin\Desktop\d3d9\Debug\d3d9.lib" /MACHINE:X86 Debug\d3d9.obj
+     1>d3d9.obj : error LNK2019: unresolved external symbol _D3DXCreateFontA@48 referenced in function "void __cdecl initD3D(struct HWND__ *)" (?initD3D@@YAXPAUHWND__@@@Z)
+     1>d3d9.obj : error LNK2019: unresolved external symbol _Direct3DCreate9@4 referenced in function "void __cdecl initD3D(struct HWND__ *)" (?initD3D@@YAXPAUHWND__@@@Z)
+     1>d3d9.obj : error LNK2019: unresolved external symbol __imp__DwmExtendFrameIntoClientArea@8 referenced in function "long __stdcall WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@@YGJPAUHWND__@@IIJ@Z)
+     1>C:\Users\austin\Desktop\d3d9\Debug\d3d9.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\austin\Desktop\d3d9\d3d9\d3d9.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.34
